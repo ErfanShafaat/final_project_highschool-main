@@ -1,0 +1,354 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4285f4">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="asset/js/jquery-3.3.1.min.js"></script>
+    <script src="asset/js/custom.js"></script>
+    <script src="app.js"></script>
+    <title>travel</title>
+</head>
+
+<body>
+    <section class="app">
+        <header>
+            <div class="logo"></div>
+            <ul class="header-menu" id="icon">
+                <li class="header-menu-item"><a href="../First_Project/index.html">Home</a></li>
+                <li class="header-menu-item"><a href="http://erfan-shafaat.ir">About us</a></li>
+                <li class="header-menu-item"><a href="../mySecendProject/index.html">Hotels</a></li>
+                <li class="header-menu-item"><a href="#" id="dark-mode">Dark Mode</a></li>
+                <li class="header-menu-item"><a href="#" id="light-mode">Light Mode</a></li>
+                <li class="header-menu-item"><a href="https://www.aa.com/">Flight Booking</a></li>
+                <li class="header-menu-item sing-up-item">
+                    <select name="" id="user-lang">
+                        <option value="EN">EN</option>
+                        <option value="ES">ES</option>
+                        <option value="FA">FA</option>
+                        <option value="AR">AR</option>
+                    </select>
+                </li>
+                <li class="header-menu-item sing-up-item"> <button class="sing-up">sign up</button></li>
+            </ul>
+            <button class="icon-bar" onclick="show()"><i class="fas fa-bars"></i></button>
+        </header>
+        <div class="banner" id="banner">
+            <h2 class="banner-text">WE ARE THE WONDER OF YOUR WEEKEND</h2>
+            <h1 class="banner-title">DISCOVER THE WORLD</h1>
+            <h2 class="banner-text-2">WITH OUR GUIDE</h2>
+            <button class="banner-btn">Start tour</button>
+
+        </div>
+        <section class="option-box">
+            <section class="option-box-item">
+                <i class="fas fa-map-marker-alt"></i><span>choose your location</span><i class="fas fa-angle-down"></i>
+            </section>
+            <section class="option-box-item">
+                <i class="fas fa-calendar-minus"></i><span> Data : MM-DD-3333</span>
+            </section>
+            <section class="option-box-item">
+                <i class="fas fa-phone"></i><span> Phone: +111-2222-3333</span>
+            </section>
+            <button id="tour">book now</button>
+        </section>
+        <!-- **************************** Finish option box ******************************** -->
+        <section class="explore">
+            <section class="explore-title">
+                <a href="#">about us</a>
+                <h1>Explore all corners of the world with us</h1>
+            </section>
+            <section class="explore-text">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempora deserunt et eius saepe ea ab
+                    voluptatibus
+                    nemo praesentium laboriosam repudiandae nesciunt enim ipsam sint, voluptates distinctio voluptate!
+                    Unde,
+                    a!</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempora deserunt et eius saepe ea ab
+                    voluptatibus
+                    nemo praesentium laboriosam repudiandae nesciunt enim ipsam sint, voluptates distinctio voluptate!
+                    Unde,
+                    a!</p>
+                <button>book now</button>
+            </section>
+
+        </section>
+        <!-- *********************************** FINISH THE OPTION-BOX ******************************* -->
+        <section class="servises">
+            <section class="servises-text">
+                <a href="http://www.varzesh3.com" target="_blank" rel="noopener noreferrer">category</a>
+                <h1>We offer best servises</h1>
+            </section>
+            <section class="servises-boxs">
+                <section class="servises-box-item" id="servises-box-item1">
+                    <section class="servises-box-item-part1">
+                        <section class="servises-icon">
+                            <i class="fa fa-cloud"></i>
+                        </section>
+                        <h1>calculated weather</h1>
+                    </section>
+                    <section class="servises-box-item-part2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Reprehenderit, molestias. Doloribus porro repellat aut ad maxime sed dolorum!</p>
+                    </section>
+                </section>
+                <section class="servises-box-item" id="servises-box-item2">
+                    <section class="servises-box-item-part1">
+                        <section class="servises-icon">
+                            <i class="fa fa-plane"></i>
+                        </section>
+                        <h1>Best Flight</h1>
+                    </section>
+                    <section class="servises-box-item-part2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Reprehenderit, molestias. Doloribus porro repellat aut ad maxime sed dolorum!</p>
+                    </section>
+                </section>
+                <section class="servises-box-item" id="servises-box-item3">
+                    <section class="servises-box-item-part1">
+                        <section class="servises-icon">
+                            <i class="fa fa-calendar"></i>
+                        </section>
+                        <h1>Locol Event</h1>
+                    </section>
+                    <section class="servises-box-item-part2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Reprehenderit, molestias. Doloribus porro repellat aut ad maxime sed dolorum!</p>
+                    </section>
+                </section>
+                <section class="servises-box-item" id="servises-box-item4">
+                    <section class="servises-box-item-part1">
+                        <section class="servises-icon">
+                            <i class="fa fa-bell"></i>
+                        </section>
+                        <h1>Customizations</h1>
+                    </section>
+                    <section class="servises-box-item-part2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Reprehenderit, molestias. Doloribus porro repellat aut ad maxime sed dolorum!</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!-- *********************************** FINISH THE SERVISES ******************************* -->
+        <section class="selling">
+            <section class="selling-text">
+                <a href="http://www.varzesh3.com" target="_blank" rel="noopener noreferrer">Top selling</a>
+                <h1>TOP Destinations</h1>
+            </section>
+            <section class="selling-img">
+                <section class="selling-img-part">
+                    <section class="selling-img-part-pic1"></section>
+                    <section class="selling-img-part-text">
+                        <pre>Rome-Italy</pre>
+                        <pre>10 Days trip</pre>
+                        <pre>$5.450</pre>
+                    </section>
+                </section>
+                <section class="selling-img-part">
+                    <section class="selling-img-part-pic2"></section>
+                    <section class="selling-img-part-text">
+                        <pre>London-Uk</pre>
+                        <pre>12 Days trip</pre>
+                        <pre>$4.400</pre>
+                    </section>
+                </section>
+                <section class="selling-img-part">
+                    <section class="selling-img-part-pic3"></section>
+                    <section class="selling-img-part-text">
+                        <pre>Full Europe</pre>
+
+                        <pre>25 Days trip</pre>
+                        <pre>$15.450</pre>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!-- ----------------------------------- Finish selling --------------------------------- -->
+        <section class="experince">
+            <section class="Experince-text">
+                <h1>experince Defference</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum neque ullam odit quia tempora
+                    recusandae magni
+                    corporis, necessitatibus eum minima cupiditate eligendi harum suscipit voluptas autem
+                    illo dicta natus consectetur.</p>
+            </section>
+            <section class="experince-boxs">
+                <section class="box1">
+                    <section class="intro-img">
+                        <h1>Spain</h1>
+                    </section>
+                    <section class="intro-img2">
+                        <h1>Spain</h1>
+                    </section>
+                </section>
+                <section class="box2">
+                    <section class="intro-img">
+                        <h1>Brazil</h1>
+                    </section>
+                    <section class="intro-img2">
+                        <h1>Brazil</h1>
+                    </section>
+                </section>
+                <section class="box3">
+                    <section class="intro-img">
+                        <h1>USA</h1>
+                    </section>
+                    <section class="intro-img2">
+                        <h1>USA</h1>
+                    </section>
+                </section>
+                <section class="box4">
+                    <section class="intro-img">
+                        <h1>Poland</h1>
+                    </section>
+                    <section class="intro-img2">
+                        <h1>Poland</h1>
+                    </section>
+                </section>
+                <section class="box5">
+                    <section class="intro-img">
+                        <h1>Iran</h1>
+                    </section>
+                    <section class="intro-img2">
+                        <h1>Iran</h1>
+                    </section>
+                </section>
+                <section class="box6">
+                    <section class="intro-img">
+                        <h1>France</h1>
+                    </section>
+                    <section class="intro-img2">
+                        <h1>France</h1>
+                    </section>
+                </section>
+                <section class="box7">
+                    <section class="intro-img">
+                        <h1>Norway</h1>
+                    </section>
+                    <section class="intro-img2">
+                        <h1>Norway</h1>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!-- ______________________________________Finish experince__________________________________________________ -->
+        <section class="enjoy">
+            <section class="enjoy-text">
+                <section class="enjoy-text-part enjoy-text-part1">
+                    <h1>Enjoy and fast</h1>
+                </section>
+                <section class="enjoy-text-part enjoy-text-part2">
+                    <h1>Book your next trip</h1>
+                </section>
+                <section class="enjoy-text-part enjoy-text-part3">
+                    <h1>In 3 easy steps</h1>
+                </section>
+                <section class="enjoy-text-part enjoy-text-part4">
+                    <section class="enjoy-text-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </section>
+                    <section class="enjoy-text-para">
+                        <h2>Choose destanination</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In laudantium </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    </section>
+                </section>
+                <section class="enjoy-text-part enjoy-text-part5">
+                    <section class="enjoy-text-icon">
+                        <i class="fa fa-credit-card"></i>
+                    </section>
+                    <section class="enjoy-text-para">
+                        <h2>Make Payment</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In laudantium </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    </section>
+                </section>
+                <section class="enjoy-text-part enjoy-text-part6">
+                    <section class="enjoy-text-icon">
+                        <i class="fa fa-calendar"></i>
+                    </section>
+                    <section class="enjoy-text-para">
+                        <h2>Reach airport on selected date</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In laudantium </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    </section>
+                </section>
+            </section>
+            <section class="enjoy-img">
+                <section class="enjoy-img-pic"></section>
+                <section class="enjoy-img-text">
+                    <section class="enjoy-img-text-part1">
+                        <h2>trip to greece</h2>
+                        <span>24-29june</span><span>By Rojon</span>
+                        <section class="enjoy-img-icons">
+                            <section><i class="fa fa-amazon"></i></section>
+                            <section><i class="fa fa-google-plus-g"></i></section>
+                            <section><i class="fa fa-youtube-play"></i></section>
+                        </section>
+                        <p>24 people going</p>
+                    </section>
+                    <section class="enjoy-img-text-part2">
+                        <section class="enjoy-img-text-part2-img"></section>
+                        <section class="enjoy-img-text-part2-text">
+                            <h1>Ongoing</h1>
+                            <p>trip to greece</p>
+                            <p class="complete-text">70%comleted</p>
+                            <progress max="100" value="70"></progress>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!-- **************************************** FINISH ENJOY ********************************** -->
+        <section class="contact">
+           <section class="contact-text"></section>
+           <section class="contact-img"></section>
+        </section>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer></footer>
+    <div class="modal">
+        <div class="modal-box">
+            <div class="modal-head">
+                <h1>Book our tour</h1>
+            </div>
+            <div class="modal-body">
+                <h1>for normal user</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis provident delectus labore!</p>
+                <h1>for pro user</h1>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+                <button class="modal-btn">close</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
